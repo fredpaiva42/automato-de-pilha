@@ -1,0 +1,16 @@
+[
+   {
+        "estados": ["0", "1", "2"],
+        "alfabeto_pilha": ["I", "A"],
+        "estado_inicial": "0",
+        "simbolo_inicial": "I",
+        "estados_finais": ["2"],
+        "transicoes": [
+            ["0", "a", "I", "0", "AI"],
+            ["0", "a", "A", "0", "AA"],
+            ["0", "b", "A", "1", "e"],
+            ["1", "b", "A", "1", "e"],
+            ["1", "e", "I", "2", "I"]
+        ]
+    }
+]
